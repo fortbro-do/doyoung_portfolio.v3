@@ -416,6 +416,10 @@ body {
   background-color: #fefefe;
 }
 
+.project_area .project_box.box1 {
+  background-color: #111;
+}
+
 .project_area .project_box.box1 .box_right>div .btn_link a:hover {
   color: #F8D338;
 }
@@ -543,41 +547,25 @@ body {
 }
 
 .project_area .project_box.box6 {
-  background-color: #7bc9f9;
+  background-color: #1E4078;
 }
 
-.project_area .project_box.box6 p,
-.project_area .project_box.box6 span {
-  color: #111;
-}
 
-.project_area .project_box.box6 .box_right>div .btn_link a {
-  border: 1px solid #111;
-  color: #111;
-}
 
 .project_area .project_box.box6 .box_right>div .btn_link a:hover {
-  color: #fefefe;
-  background-color: #111;
+  color: #1E4078;
+  background-color: #fefefe;
 }
 
 .project_area .project_box.box7 {
-  background-color: #e8e8e8;
+  background-color: #72B0E0;
 }
 
-.project_area .project_box.box7 p,
-.project_area .project_box.box7 span {
-  color: #111;
-}
 
-.project_area .project_box.box7 .box_right>div .btn_link a {
-  border: 1px solid #111;
-  color: #111;
-}
 
 .project_area .project_box.box7 .box_right>div .btn_link a:hover {
-  color: #fefefe;
-  background-color: #111;
+  color: #72B0E0;
+  background-color: #fefefe;
 }
 
 .project_area .project_box.box8 {
@@ -619,41 +607,19 @@ body {
 }
 
 .project_area .project_box.box10 {
-  background-color: #fefefe;
-}
-
-.project_area .project_box.box10 p,
-.project_area .project_box.box10 span {
-  color: #111;
-}
-
-.project_area .project_box.box10 .box_right>div .btn_link a {
-  border: 1px solid #111;
-  color: #111;
+  background-color: #062f87;
 }
 
 .project_area .project_box.box10 .box_right>div .btn_link a:hover {
-  color: #fefefe;
-  background-color: #111;
+  color: #062f87;
 }
 
 .project_area .project_box.box11 {
-  background-color: #fefefe;
-}
-
-.project_area .project_box.box11 p,
-.project_area .project_box.box11 span {
-  color: #111;
-}
-
-.project_area .project_box.box11 .box_right>div .btn_link a {
-  border: 1px solid #111;
-  color: #111;
+  background-color: #e86200;
 }
 
 .project_area .project_box.box11 .box_right>div .btn_link a:hover {
-  color: #fefefe;
-  background-color: #111;
+  color: #e86200;
 }
 
 .project_area .project_box.box3 p,
@@ -699,7 +665,11 @@ body {
     color: #fefefe !important;
   }
 
-  .project_area .project_box.box3 .box_right>div .btn_link a:hover {
+  .project_area .project_box.box3 .box_right>div .btn_link a:hover,
+  .project_area .project_box.box6 .box_right>div .btn_link a:hover,
+  .project_area .project_box.box7 .box_right>div .btn_link a:hover,
+  .project_area .project_box.box8 .box_right>div .btn_link a:hover,
+  .project_area .project_box.box9 .box_right>div .btn_link a:hover {
     color: #111 !important;
   }
 
