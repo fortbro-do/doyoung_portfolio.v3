@@ -425,44 +425,25 @@ body {
 }
 
 .project_area .project_box.box3 .box_right>div .btn_link a:hover {
-  color: #F6EBD6;
+  color: #fefefe;
+  background-color: #111;
 }
 
-.project_area .project_box.box4 .box_right>div .btn_link a {
+.project_area .project_box.box3 .box_right>div .btn_link a {
   border: 1px solid #111;
   color: #111;
 }
 
 .project_area .project_box.box4 .box_right>div .btn_link a:hover {
-  color: #fefefe;
-  background-color: #111;
-}
-
-.project_area .project_box.box5 .box_right>div .btn_link a:hover {
   color: #333333;
 }
 
-.project_area .project_box.box6 .box_right>div .btn_link a:hover {
-  color: #03223C;
-}
 
-.project_area .project_box.box7 .box_right>div .btn_link a:hover {
-  color: #003777;
-}
-
-.project_area .project_box.box8 .box_right>div .btn_link a:hover {
+.project_area .project_box.box5 .box_right>div .btn_link a:hover {
   color: #00a040;
 }
 
-.project_area .project_box.box9 .box_right>div .btn_link a:hover {
-  color: #fefefe;
-  background-color: #111;
-}
 
-.project_area .project_box.box9 .box_right>div .btn_link a {
-  border: 1px solid #111;
-  color: #111;
-}
 
 .project_area .project_box .box_right>div .btn_link_box {
   padding: 3rem;
@@ -550,39 +531,133 @@ body {
 }
 
 .project_area .project_box.box3 {
-  background-color: #F6EBD6;
-}
-
-.project_area .project_box.box4 {
   background-color: #fefefe;
 }
 
-.project_area .project_box.box5 {
+.project_area .project_box.box4 {
   background-color: #333333;
 }
 
+.project_area .project_box.box5 {
+  background-color: #00a040;
+}
+
 .project_area .project_box.box6 {
-  background-color: #03223C;
+  background-color: #7bc9f9;
+}
+
+.project_area .project_box.box6 p,
+.project_area .project_box.box6 span {
+  color: #111;
+}
+
+.project_area .project_box.box6 .box_right>div .btn_link a {
+  border: 1px solid #111;
+  color: #111;
+}
+
+.project_area .project_box.box6 .box_right>div .btn_link a:hover {
+  color: #fefefe;
+  background-color: #111;
 }
 
 .project_area .project_box.box7 {
-  background-color: #003777;
+  background-color: #e8e8e8;
+}
+
+.project_area .project_box.box7 p,
+.project_area .project_box.box7 span {
+  color: #111;
+}
+
+.project_area .project_box.box7 .box_right>div .btn_link a {
+  border: 1px solid #111;
+  color: #111;
+}
+
+.project_area .project_box.box7 .box_right>div .btn_link a:hover {
+  color: #fefefe;
+  background-color: #111;
 }
 
 .project_area .project_box.box8 {
-  background-color: #00a040;
+  background-color: #fefefe;
+}
+
+.project_area .project_box.box8 p,
+.project_area .project_box.box8 span {
+  color: #111;
+}
+
+.project_area .project_box.box8 .box_right>div .btn_link a {
+  border: 1px solid #111;
+  color: #111;
+}
+
+.project_area .project_box.box8 .box_right>div .btn_link a:hover {
+  color: #fefefe;
+  background-color: #111;
 }
 
 .project_area .project_box.box9 {
   background-color: #fefefe;
 }
 
-.project_area .project_box.box3 p,
-.project_area .project_box.box3 span,
-.project_area .project_box.box4 p,
-.project_area .project_box.box4 span,
 .project_area .project_box.box9 p,
 .project_area .project_box.box9 span {
+  color: #111;
+}
+
+.project_area .project_box.box9 .box_right>div .btn_link a {
+  border: 1px solid #111;
+  color: #111;
+}
+
+.project_area .project_box.box9 .box_right>div .btn_link a:hover {
+  color: #fefefe;
+  background-color: #111;
+}
+
+.project_area .project_box.box10 {
+  background-color: #fefefe;
+}
+
+.project_area .project_box.box10 p,
+.project_area .project_box.box10 span {
+  color: #111;
+}
+
+.project_area .project_box.box10 .box_right>div .btn_link a {
+  border: 1px solid #111;
+  color: #111;
+}
+
+.project_area .project_box.box10 .box_right>div .btn_link a:hover {
+  color: #fefefe;
+  background-color: #111;
+}
+
+.project_area .project_box.box11 {
+  background-color: #fefefe;
+}
+
+.project_area .project_box.box11 p,
+.project_area .project_box.box11 span {
+  color: #111;
+}
+
+.project_area .project_box.box11 .box_right>div .btn_link a {
+  border: 1px solid #111;
+  color: #111;
+}
+
+.project_area .project_box.box11 .box_right>div .btn_link a:hover {
+  color: #fefefe;
+  background-color: #111;
+}
+
+.project_area .project_box.box3 p,
+.project_area .project_box.box3 span {
   color: #111;
 }
 
@@ -624,9 +699,7 @@ body {
     color: #fefefe !important;
   }
 
-  .project_area .project_box.box3 .box_right>div .btn_link a:hover,
-  .project_area .project_box.box4 .box_right>div .btn_link a:hover,
-  .project_area .project_box.box9 .box_right>div .btn_link a:hover {
+  .project_area .project_box.box3 .box_right>div .btn_link a:hover {
     color: #111 !important;
   }
 
