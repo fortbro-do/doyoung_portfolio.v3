@@ -792,3 +792,141 @@ body {
     font-size: 2rem;
   }
 }
+/* 프로젝트 카드 보완 */
+.project_area .project_box .box_right>div .btn_link {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.project_area .img_box img[src$=".svg"] {
+  width: 40rem;
+}
+
+.project_area .project_box.box1 .img_box img {
+  width: 40rem;
+}
+
+/* 그 외 프로젝트 */
+.other_area {
+  position: relative;
+  z-index: 2;
+  padding: 15rem 5rem;
+  background: #111;
+  color: #fefefe;
+}
+
+.other_area .other_list {
+  margin-top: 5rem;
+  border-top: 1px solid #444;
+}
+
+.other_area .other_list li {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1.2fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 2.4rem 0;
+  border-bottom: 1px solid #444;
+  font-size: 1.8rem;
+  line-height: 130%;
+}
+
+.other_area .other_name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.other_area .other_type,
+.other_area .other_date {
+  color: #BEBEBE;
+}
+
+.other_area .other_link {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.other_area .other_link a {
+  padding: 0.6rem 1.6rem;
+  border: 1px solid #fefefe;
+  border-radius: 5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  transition: .4s;
+}
+
+.other_area .other_link a:hover {
+  background-color: #fefefe;
+  color: #111;
+}
+
+@media (width < 1025px) {
+  .other_area .other_list li {
+    grid-template-columns: 1fr auto;
+    gap: 1rem 2rem;
+  }
+
+  .other_area .other_type,
+  .other_area .other_date {
+    grid-column: 1;
+  }
+
+  .other_area .other_link {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+  }
+}
+
+@media (width < 768px) {
+  .other_area {
+    padding: 15rem 3.2rem;
+  }
+
+  .other_area .other_list li {
+    font-size: 3.6rem;
+  }
+
+  .other_area .other_name {
+    font-size: 4rem;
+  }
+
+  .other_area .other_link a {
+    font-size: 3rem;
+  }
+
+  .project_area .img_box img[src$=".svg"],
+  .project_area .project_box.box1 .img_box img {
+    width: 60rem;
+  }
+}
+
+/* 1번 카드: 스크롤 시 노란 배경이 되므로 글자를 어둡게 */
+.project_area .project_box.box1 {
+  background-color: #F8D338;
+}
+
+.project_area .project_box.box1 p,
+.project_area .project_box.box1 span {
+  color: #111;
+}
+
+.project_area .project_box.box1 .box_right>div .btn_link a {
+  border: 1px solid #111;
+  color: #111;
+}
+
+.project_area .project_box.box1 .box_right>div .btn_link a:hover {
+  color: #F8D338;
+  background-color: #111;
+}
+
+.project_area .project_info {
+  word-break: keep-all;
+}
+
+@media (width < 1280px) {
+  .project_area .project_box.box1 .box_right>div .btn_link a:hover {
+    color: #111 !important;
+  }
+}
