@@ -85,7 +85,6 @@ body {
 
 @media (width < 1500px) {
 
-
   .home_title {
     font-size: 15rem;
   }
@@ -104,8 +103,6 @@ body {
     font-size: 10rem;
   }
 }
-
-
 
 /* 이력 */
 .career_area {
@@ -152,8 +149,6 @@ body {
   gap: 5rem;
 }
 
-
-
 .career_area .career_title {
   font-size: 2.4rem;
   font-weight: 600;
@@ -173,7 +168,6 @@ body {
   font-weight: 400;
   line-height: 100%;
 }
-
 
 .career_area ul .career_title_name {
   font-size: 2rem;
@@ -218,7 +212,6 @@ body {
   line-height: 100%;
 }
 
-
 @media (width < 1500px) {
   .career_area .inner {
     flex-direction: column;
@@ -236,8 +229,6 @@ body {
     height: 100%;
   }
 
-
-
   .career_area .inner .career_box {
     justify-self: flex-end;
     gap: 3rem;
@@ -247,7 +238,6 @@ body {
 
 @media (width < 1025px) {
 
-
   .career_area {
     height: 100%;
   }
@@ -255,8 +245,6 @@ body {
   .career_area .inner {
     gap: 8rem;
   }
-
-
 
   .career_area .inner .career_box>div .career_box_list {
     gap: 2rem;
@@ -355,7 +343,6 @@ body {
   padding: 8rem 0;
 }
 
-
 .project_area .project_box {
   position: -webkit-sticky;
   position: sticky;
@@ -370,10 +357,6 @@ body {
   grid-template-columns: 1fr 1fr;
   height: 100%;
 }
-
-
-
-
 
 .project_area .project_box .box_left,
 .project_area .project_box .box_right {
@@ -415,39 +398,6 @@ body {
 .project_area .project_box .box_right>div .btn_link a:hover {
   background-color: #fefefe;
 }
-
-.project_area .project_box.box1 {
-  background-color: #111;
-}
-
-.project_area .project_box.box1 .box_right>div .btn_link a:hover {
-  color: #F8D338;
-}
-
-.project_area .project_box.box2 .box_right>div .btn_link a:hover {
-  color: #016191;
-}
-
-.project_area .project_box.box3 .box_right>div .btn_link a:hover {
-  color: #fefefe;
-  background-color: #111;
-}
-
-.project_area .project_box.box3 .box_right>div .btn_link a {
-  border: 1px solid #111;
-  color: #111;
-}
-
-.project_area .project_box.box4 .box_right>div .btn_link a:hover {
-  color: #333333;
-}
-
-
-.project_area .project_box.box5 .box_right>div .btn_link a:hover {
-  color: #00a040;
-}
-
-
 
 .project_area .project_box .box_right>div .btn_link_box {
   padding: 3rem;
@@ -527,107 +477,6 @@ body {
   letter-spacing: 1px;
 }
 
-
-
-
-.project_area .project_box.box2 {
-  background-color: #016191;
-}
-
-.project_area .project_box.box3 {
-  background-color: #fefefe;
-}
-
-.project_area .project_box.box4 {
-  background-color: #333333;
-}
-
-.project_area .project_box.box5 {
-  background-color: #00a040;
-}
-
-.project_area .project_box.box6 {
-  background-color: #1E4078;
-}
-
-
-
-.project_area .project_box.box6 .box_right>div .btn_link a:hover {
-  color: #1E4078;
-  background-color: #fefefe;
-}
-
-.project_area .project_box.box7 {
-  background-color: #72B0E0;
-}
-
-
-
-.project_area .project_box.box7 .box_right>div .btn_link a:hover {
-  color: #72B0E0;
-  background-color: #fefefe;
-}
-
-.project_area .project_box.box8 {
-  background-color: #fefefe;
-}
-
-.project_area .project_box.box8 p,
-.project_area .project_box.box8 span {
-  color: #111;
-}
-
-.project_area .project_box.box8 .box_right>div .btn_link a {
-  border: 1px solid #111;
-  color: #111;
-}
-
-.project_area .project_box.box8 .box_right>div .btn_link a:hover {
-  color: #fefefe;
-  background-color: #111;
-}
-
-.project_area .project_box.box9 {
-  background-color: #fefefe;
-}
-
-.project_area .project_box.box9 p,
-.project_area .project_box.box9 span {
-  color: #111;
-}
-
-.project_area .project_box.box9 .box_right>div .btn_link a {
-  border: 1px solid #111;
-  color: #111;
-}
-
-.project_area .project_box.box9 .box_right>div .btn_link a:hover {
-  color: #fefefe;
-  background-color: #111;
-}
-
-.project_area .project_box.box10 {
-  background-color: #062f87;
-}
-
-.project_area .project_box.box10 .box_right>div .btn_link a:hover {
-  color: #062f87;
-}
-
-.project_area .project_box.box11 {
-  background-color: #e86200;
-}
-
-.project_area .project_box.box11 .box_right>div .btn_link a:hover {
-  color: #e86200;
-}
-
-.project_area .project_box.box3 p,
-.project_area .project_box.box3 span {
-  color: #111;
-}
-
-
 @media (width < 1280px) {
   .project_area .project_box>div {
     display: flex;
@@ -665,14 +514,6 @@ body {
     color: #fefefe !important;
   }
 
-  .project_area .project_box.box3 .box_right>div .btn_link a:hover,
-  .project_area .project_box.box6 .box_right>div .btn_link a:hover,
-  .project_area .project_box.box7 .box_right>div .btn_link a:hover,
-  .project_area .project_box.box8 .box_right>div .btn_link a:hover,
-  .project_area .project_box.box9 .box_right>div .btn_link a:hover {
-    color: #111 !important;
-  }
-
 }
 
 @media (width < 768px) {
@@ -703,8 +544,6 @@ body {
     font-size: 2.6rem;
   }
 }
-
-
 
 /* contact */
 
@@ -745,7 +584,6 @@ body {
   gap: 2.5rem;
 }
 
-
 .contact_area .contact_box>p {
   color: #FEFEFE;
   font-size: 1.6rem;
@@ -764,7 +602,6 @@ body {
   .contact_area {
     padding: 8rem 1.6rem 3rem;
   }
-
 
   .contact_area .contact_box>div {
     display: grid;
@@ -799,10 +636,6 @@ body {
 }
 
 .project_area .img_box img[src$=".svg"] {
-  width: 40rem;
-}
-
-.project_area .project_box.box1 .img_box img {
   width: 40rem;
 }
 
@@ -894,39 +727,43 @@ body {
   .other_area .other_link a {
     font-size: 3rem;
   }
-
-  .project_area .img_box img[src$=".svg"],
-  .project_area .project_box.box1 .img_box img {
-    width: 60rem;
-  }
-}
-
-/* 1번 카드: 스크롤 시 노란 배경이 되므로 글자를 어둡게 */
-.project_area .project_box.box1 {
-  background-color: #F8D338;
-}
-
-.project_area .project_box.box1 p,
-.project_area .project_box.box1 span {
-  color: #111;
-}
-
-.project_area .project_box.box1 .box_right>div .btn_link a {
-  border: 1px solid #111;
-  color: #111;
-}
-
-.project_area .project_box.box1 .box_right>div .btn_link a:hover {
-  color: #F8D338;
-  background-color: #111;
 }
 
 .project_area .project_info {
   word-break: keep-all;
 }
 
-@media (width < 1280px) {
-  .project_area .project_box.box1 .box_right>div .btn_link a:hover {
-    color: #111 !important;
+
+/* 프로젝트별 브랜드 색 */
+.project_area .project_box { background-color: var(--brand, #111); }
+.project_area .project_box .box_right>div .btn_link a:hover { color: var(--brand, #111); }
+.project_area .project_box.p_geo { --brand: #156EB9; }
+.project_area .project_box.p_with { --brand: #005F1F; }
+.project_area .project_box.p_fc { --brand: #000; }
+.project_area .project_box.p_good { --brand: #0880E8; }
+.project_area .project_box.p_hd { --brand: #003087; }
+.project_area .project_box.p_hm { --brand: #ED1B23; }
+
+.project_area .project_box.p_geo .img_box img {
+  width: 100%;
+  max-width: 64rem;
+  border-radius: 2rem;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+}
+
+.project_area .project_box.p_good .img_box img {
+  padding: 3rem 4rem;
+  border-radius: 2rem;
+  background-color: #fff;
+}
+
+.project_area .project_box.p_hm .img_box img {
+  width: 40rem;
+}
+
+@media (width < 768px) {
+  .project_area .img_box img[src$=".svg"],
+  .project_area .project_box.p_hm .img_box img {
+    width: 60rem;
   }
 }
